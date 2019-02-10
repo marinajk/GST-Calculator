@@ -7,14 +7,24 @@
     <title>GST Calculator - Omni</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
+<body onload="calculate()" >
+    <div class="back">
    <div class="title"> <b>OMNI</b> CALCULATOR</div>
    <br>
-   <div >
-       <input type="number" placeholder="Net price" class="textboxes textbox1" id="np"><br>
-       <input type="number" placeholder="GST" class="textboxes" id="gst"><br>
-       <input type="number" placeholder="Gross price" class="textboxes" id="gp"><br>
-       <input type="number" placeholder="Tax amount" class="textboxes textbox4" id="ta">
+   <div>
+       <input type="text" placeholder="Net price" class="textboxes textbox1" id="np" >
+       <img src="images/r.png" class="r">
+       <br>
+       <input type="text" placeholder="GST" class="textboxes" id="gst">
+       <img src="images/p.png" class="r">
+       <br>
+       <input type="text" placeholder="Gross price" class="textboxes" id="gp" >
+       <img src="images/r.png" class="r">
+       <br>
+       <input type="text" placeholder="Tax amount" class="textboxes textbox4" id="ta" >
+       <img src="images/r.png" class="r">
    </div>
+</div>
+<script src="index.js"></script>
 </body>
 </html>

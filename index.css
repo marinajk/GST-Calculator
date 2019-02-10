@@ -5,8 +5,9 @@ text-align: center;
 }
 .title
 {
-  margin-top:120px;
-    color:white;
+  margin-top:20px;
+  padding-top: 10px;
+    color:#246481;
     font-family:Lato,Arial,sans-serif; 
 
 }
@@ -15,9 +16,13 @@ text-align: center;
 height: 50px;
 width: 300px;
 padding-left: 10px;
+margin-left: 23px;
 border-bottom: 1px solid #adabab;
 border-top: none;
 border-left: none;
+border-right: none;
+
+
 }
 .textbox1
 {
@@ -29,4 +34,22 @@ border-top-right-radius: 5px;
 {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+.r
+{
+    z-index:5;
+    position: relative;
+    right:30px;
+    top:7px;
+}
+.back
+{
+    border-radius: 5px;
+    background-color: white;
+    width:fit-content;
+    position: relative;
+    text-align: center;
+    left:496px;
+    top:150px;
+   align-content: center;
 }
