@@ -1,0 +1,27 @@
+body
+{
+background-color: #246481;
+text-align: center;
+}
+.title
+{
+  margin-top:120px;
+    color:white;
+    font-family:Lato,Arial,sans-serif; 
+
+}
+.textboxes
+{
+height: 50px;
+width: 300px;
+}
+.textbox1
+{
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.textbox4
+{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
