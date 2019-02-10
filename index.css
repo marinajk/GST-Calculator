@@ -14,9 +14,14 @@ text-align: center;
 {
 height: 50px;
 width: 300px;
+padding-left: 10px;
+border-bottom: 1px solid #adabab;
+border-top: none;
+border-left: none;
 }
 .textbox1
 {
+
 border-top-left-radius: 5px;
 border-top-right-radius: 5px;
 }
