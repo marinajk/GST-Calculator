@@ -14,14 +14,14 @@ text-align: center;
 .textboxes
 {
 height: 50px;
-width: 300px;
+width: 280px;
 padding-left: 10px;
 margin-left: 23px;
 border-bottom: none;
 border-top: none;
 border-left: none;
 border-right: none;
-
+text-align: right;
 
 }
 .textbox1
@@ -38,10 +38,11 @@ border-top-right-radius: 5px;
 }
 .r
 {
+    right: 2px;
+    top: 6px;
     z-index:5;
     position: relative;
-    right:15px;
-    top:7px;
+   
 }
 .back
 {
