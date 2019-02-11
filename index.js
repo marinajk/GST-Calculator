@@ -36,7 +36,7 @@ var perform=(keyObj)=>
 
     for (let i=0;i<t.length;i++)
 {
-    t[i].addEventListener("keypress",perform,false);
+    t[i].addEventListener("keyup",perform,false);
 
 }
  
