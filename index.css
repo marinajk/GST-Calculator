@@ -17,7 +17,7 @@ height: 50px;
 width: 300px;
 padding-left: 10px;
 margin-left: 23px;
-border-bottom: 1px solid #adabab;
+border-bottom: none;
 border-top: none;
 border-left: none;
 border-right: none;
@@ -26,7 +26,7 @@ border-right: none;
 }
 .textbox1
 {
-
+    margin-left: 36px;
 border-top-left-radius: 5px;
 border-top-right-radius: 5px;
 }
@@ -34,12 +34,13 @@ border-top-right-radius: 5px;
 {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    margin-left: 20px;
 }
 .r
 {
     z-index:5;
     position: relative;
-    right:30px;
+    right:15px;
     top:7px;
 }
 .back
@@ -52,4 +53,17 @@ border-top-right-radius: 5px;
     left:496px;
     top:150px;
    align-content: center;
+}
+.left
+{
+    text-align: left;
+    padding-left: 20px;
+    color:#adabab;
+   
+    border-bottom: 1px solid #adabab;
+}
+
+.textbox2
+{
+    margin-left: 66px;
 }

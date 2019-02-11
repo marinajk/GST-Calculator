@@ -1,4 +1,4 @@
- window.onload=calculate();
+ 
   function calculate()
 {  
     var t = document.getElementsByClassName("textboxes");
