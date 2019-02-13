@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,34 +8,68 @@
     <title>GST Calculator - Omni</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body  >
-    <div class="back">
-   <div class="title"> <b>OMNI</b> CALCULATOR</div>
-   <br>
-   <div>
-       
-       <div class="left">Net price
-       <input type="text" class="textboxes textbox1" id="np" >
-       <img src="images/r.png" class="r">
-       </div>
 
-       <br>
-       <div class="left">GST
-       <input type="text" class="textboxes textbox2" id="gst">
-       <img src="images/p.png" class="r">
-       </div>
-       <br>
-       <div class="left">Gross price
-       <input type="text" class="textboxes " id="gp" >
-       <img src="images/r.png" class="r">
-       </div>
-       <br>
-       <div class="left">Tax amount
-       <input type="text" class="textboxes textbox4" id="ta" >
-       <img src="images/r.png" class="r">
-       </div>
-   </div>
-</div>
-<script src="index.js"></script>
+<body>
+    <div class="split">
+
+
+    </div>
+    <div class="back">
+
+        <div class="title"><img src="images/menu.png" class="image"> <b>OMNI</b> CALCULATOR
+            <a href="" class="embed">Embed</a>
+            <a class="nounderline">Share via</a>
+            <input type="button" value="f" class="buttonn">
+            <button class="buttonn nounderline">
+                <img src="images/picture.png" height="12px" width="12px">
+            </button>
+            <input type="button" value="in" class="buttonn" style="font-size:12px">
+            <button class="buttonn nounderline">
+                <img src="images/g+.png" height="14px" width="14px">
+            </button>
+            <input type="text" class="txt">
+            <img src="images/search.png" class="search">
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="left">
+            <table>
+                <tr>
+                    <td class="label">Net price</td>
+                    <td> <input type="text" class="texts" id="np"></td>
+                    <td> <img src="images/r.png"></td>
+                    <td rowspan="4" class=" button1"><input type="button" class="button1"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td class="label">GST</td>
+                    <td><input type="text" class="texts" id="gst"></td>
+                    <td> <img src="images/r.png"></td>
+                    
+                </tr> <br>
+                <tr>
+                    <td class="label"> Gross price</td>
+                    <td> <input type="text" class="texts" id="gp"></td>
+                    <td> <img src="images/p.png"> </td>
+                   
+                </tr> <br>
+                <tr>
+                    <td class="label">Tax amount</td>
+                    <td> <input type="text" class="texts" id="ta"></td>
+                    <td> <img src="images/r.png"></td>
+                   
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
 </body>
+
 </html>
